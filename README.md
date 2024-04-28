@@ -4,3 +4,11 @@
 * workWithPipes() - взаимодействие через pipe-ы
 * workWithSockets() - взаимодействие через сокеты
 * workTiwhSharedMemory() - взаимодействие через разделяемую память
+
+# Сборка и запуск
+```bash
+cd build
+cmake ..
+cmake --build .
+./gauss
+```
