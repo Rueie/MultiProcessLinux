@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.6)
+
+set(PROJECT gauss_lib)
+
+PROJECT(${PROJECT})
+set(SOURCE_DIR src)
+set(HEADERS_DIR inc)
+
+file(GLOB_RECURSE SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/${SOURCE_DIR}/*.cpp)
+file(GLOB_RECURSE HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/${HEADERS_DIR}/*.h)
+
+add_library(${PROJECT} ${HEADERS} ${SOURCES})
+target_include_directories(${PROJECT} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/${HEADERS_DIR})

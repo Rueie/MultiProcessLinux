@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgauss_lib.a CMakeFiles/gauss_lib.dir/src/gauss.cpp.o
+/usr/bin/ranlib libgauss_lib.a

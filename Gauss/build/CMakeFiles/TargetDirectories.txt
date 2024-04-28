@@ -1,0 +1,3 @@
+/home/sysadm/Unik/Gauss/build/CMakeFiles/rebuild_cache.dir
+/home/sysadm/Unik/Gauss/build/CMakeFiles/edit_cache.dir
+/home/sysadm/Unik/Gauss/build/CMakeFiles/gauss_lib.dir
